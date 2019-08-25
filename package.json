@@ -42,7 +42,16 @@
         "form-data": "~0.2.0",
         "chai": "~1.5.0",
         "limiter": "^1.1.0",
-        "mocha": "1.8.2"
+        "mocha": "1.8.2",
+        "amd-loader": "file:./ext/amd-loader",
+        "architect": "file:./ext/architect",
+        "connect-architect": "file:./ext/connect-architect",
+        "c9": "file:./ext/c9",
+        "frontdoor": "file:./ext/frontdoor",
+        "kaefer": "file:./ext/kaefer",
+        "msgpack-js": "file:./ext/msgpack-js",
+        "smith": "file:./ext/smith",
+        "treehugger": "file:./ext/treehugger"
     },
     "scripts": {
         "start": "node server.js"
