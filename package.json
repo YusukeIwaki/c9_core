@@ -54,7 +54,7 @@
         "treehugger": "file:./ext/treehugger"
     },
     "scripts": {
-        "start": "node server.js"
+        "start": "node server.js --port $PORT --listen 0.0.0.0 --auth c9:hogehoge"
     },
     "devDependencies": {},
     "licenses": []
