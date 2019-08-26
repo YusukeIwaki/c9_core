@@ -51,7 +51,8 @@
         "kaefer": "file:./ext/kaefer",
         "msgpack-js": "file:./ext/msgpack-js",
         "smith": "file:./ext/smith",
-        "treehugger": "file:./ext/treehugger"
+        "treehugger": "file:./ext/treehugger",
+        "pty.js": "git+https://github.com/cancerberoSgx/pty.js"
     },
     "scripts": {
         "start": "node server.js --port $PORT --listen 0.0.0.0 --auth c9:hogehoge"
